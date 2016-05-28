@@ -1,0 +1,13 @@
+** To build the war file in order to deploy it on any webserver
+    mvn clean package
+
+
+** To build a fat jar with all dependencies as well as an embedded tomcat server (convenient for test and debug)
+    mvn clean compile assembly:single -P app
+
+
+** To run the jar file
+    java -jar address-verify.jar
+
+
+
