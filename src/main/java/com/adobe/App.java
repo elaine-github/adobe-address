@@ -8,9 +8,7 @@ import org.apache.commons.cli.Options;
 import org.apache.log4j.Logger;
 
 public class App {
-    private static final Logger logger = Logger.getLogger(App.class);
-
-    public static void main1(String[] args) throws Exception {
+    public static void main(String[] args) throws Exception {
         // create Options object
         Options options = new Options();
         options.addOption("h", false, "Show help.");
